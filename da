@@ -1,0 +1,13 @@
+Then  Account Activity page should have the title "Zero –Account activity"
+    And   Account drop down default option should be "Savings"
+    And   Account drop down should have the following options:
+      |Savings|
+      |Checking|
+      |Loan|
+      |Credit Card|
+      |Brokerage  |
+    And Transactions table should have column names :
+      |Date|
+      |Description|
+      |Deposit|
+      |Withdrawal|
